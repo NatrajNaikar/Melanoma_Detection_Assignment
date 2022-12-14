@@ -18,9 +18,12 @@ Build a CNN based model which can accurately detect melanoma.
 
 
 ## Technologies Used
-- Python - version 1.0
-- Tensorflow - version 2.0
-- Augmentor - version 3.0
+- Python - 3.9.12
+- Tensorflow - 2.10.0 
+- Augmentor - 0.4.4
+- Keras - 2.10.0
+- pandas - 1.4.2
+- numpy - 1.21.5
 
 
 ## Conclusions
