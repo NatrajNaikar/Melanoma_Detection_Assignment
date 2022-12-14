@@ -8,7 +8,6 @@ Build a CNN based model which can accurately detect melanoma.
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
 >Provide general information about your project here.
