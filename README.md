@@ -60,9 +60,8 @@ Model 4
 - Model 4 was trained for 20 epochs
 - 1000 additional images are generated for each class in addition to existing images
 - Observations:
-  - 
-  - 
-  - 
+  - Model still overfits
+  - Use of Batch Normalization may help to achive a good accuracy and help to converge quickly
 
 
 ## Acknowledgements
