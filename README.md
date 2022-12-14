@@ -25,9 +25,9 @@ Build a CNN based model which can accurately detect melanoma.
 
 ## Conclusions
 Model 1
-> Model 1 was trained for 20 epochs with available data
-> Observations:
-    > Model is overfitting
+- Model 1 was trained for 20 epochs with available data
+- Observations:
+    - Model is overfitting
         - Training accuracy increases exponentially
         - Validation accuracy increases initially and then remains constant
         - More data and more epochs may help
@@ -35,11 +35,11 @@ Model 1
 
 
 Model 2
-> Model 2 was trained for 20 epochs with keras built-in data augmentation.
-> Following augmentations were used
+- Model 2 was trained for 20 epochs with keras built-in data augmentation.
+- Following augmentations were used
    - Rotation
    - Flip - vertical and horizontal
-> Observations:
+- Observations:
    - Overfitting reduced compared to Model 1
    - But accuracy also decreased - which means, fewer epochs results in underfitting
    - Therefore Data augmentation helped in reducing overfitting
@@ -47,19 +47,19 @@ Model 2
 
 
 Model 3
-> Model 3 was trained for 50 epochs
-> Applied augmentation to handle imbalance
-> 500 images are generated for each class in addition to existing images
-> Observations:
+- Model 3 was trained for 50 epochs
+- Applied augmentation to handle imbalance
+- 500 images are generated for each class in addition to existing images
+- Observations:
   - Final model is still overfitting slightly
   - Validation accuracy increases initially and then remains constant
   - Validation loss reduces initially and increases exponentially after few epochs
   - Rebalancing the data may help achieve a good accuracy 
 
 Model 4
-> Model 4 was trained for 20 epochs
-> 1000 additional images are generated for each class in addition to existing images
-> Observations:
+- Model 4 was trained for 20 epochs
+- 1000 additional images are generated for each class in addition to existing images
+- Observations:
   - 
   - 
   - 
@@ -70,4 +70,4 @@ Model 4
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@NatrajNaikar] - feel free to contact me!
