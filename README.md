@@ -1,6 +1,5 @@
 # Melanoma Detection with CNN
-# Project Name
-> Outline a brief description of your project.
+Build a CNN based model which can accurately detect melanoma.
 
 
 ## Table of Contents
@@ -12,42 +11,64 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+> Provide general information about your project here.
+> To build a CNN based model which can accurately detect melanoma.
+> Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths.
+> A solution that can evaluate images and alert dermatologists about the presence of melanoma has the potential to reduce a lot of manual effort needed in    diagnosis.
+> The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC)
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python - version 1.0
+- Tensorflow - version 2.0
+- Augmentor - version 3.0
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+
+## Conclusions
+Model 1
+> Model 1 was trained for 20 epochs with available data
+> Observations:
+    > Model is overfitting
+        - Training accuracy increases exponentially
+        - Validation accuracy increases initially and then remains constant
+        - More data and more epochs may help
+        - Handling class imbalance might help
+
+
+Model 2
+> Model 2 was trained for 20 epochs with keras built-in data augmentation.
+> Following augmentations were used
+   - Rotation
+   - Flip - vertical and horizontal
+> Observations:
+   - Overfitting reduced compared to Model 1
+   - But accuracy also decreased - which means, fewer epochs results in underfitting
+   - Therefore Data augmentation helped in reducing overfitting
+   - More epochs to be considered to better the accuracy
+
+
+Model 3
+> Model 3 was trained for 50 epochs
+> Applied augmentation to handle imbalance
+> 500 images are generated for each class in addition to existing images
+> Observations:
+  - Final model is still overfitting slightly
+  - Validation accuracy increases initially and then remains constant
+  - Validation loss reduces initially and increases exponentially after few epochs
+  - Rebalancing the data may help achieve a good accuracy 
+
+Model 4
+> Model 4 was trained for 20 epochs
+> 1000 additional images are generated for each class in addition to existing images
+> Observations:
+  - 
+  - 
+  - 
+
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- Tensorflow image classification tutorial
 
 
 ## Contact
 Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
