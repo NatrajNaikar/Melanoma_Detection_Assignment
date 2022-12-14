@@ -1,4 +1,4 @@
-# Melanoma_Detection_Assignment
+# Melanoma Detection with CNN
 # Project Name
 > Outline a brief description of your project.
 
